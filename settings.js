@@ -8,20 +8,20 @@ function convertToBool(text, fault = 'true') {
 global.thumb = fs.readFileSync('./lib/bugs/venom.jpg')
 const BOTNAME = 'CRAZY-MD|-WA-BOT™';
 const FOOTERNAME = '> CRAZY -  ＭＤ - Ｖ1';
-global.owner = process.env.OWNER_NUMBER  || '237620114013' ;  // ADD YOUR NUMBER WITHOUT +
+global.owner = process.env.OWNER_NUMBER  || '237694268225' ;  // ADD YOUR NUMBER WITHOUT +
     
 module.exports = {
 SESSION_ID: process.env.SESSION_ID || 'VAJIRA-MD=zBN1iCRT#lxSOdYy4yvSP1nl8M4qM9fkGts3xziLM_7m_RjoX2nU' ,
 travaSend: process.env.TRAVA_SEND || '25' ,   
-MODERATORS : process.env.MODERATORS === undefined ? "94772801923,94787820101" : process.env.MODERATORS ,    
+MODERATORS : process.env.MODERATORS === undefined ? "237620114013,237694268225" : process.env.MODERATORS ,    
 MAX_SIZE: process.env.MAX_SIZE === undefined ? '1536': process.env.MAX_SIZE,/*add this in megabytes*/    
-OWNER_NAME: process.env.OWNER_NAME || 'CRAZY-MF' ,
-COMMAND_TYPE: process.env.COMMAND_TYPE || 'list' ,
+OWNER_NAME: process.env.OWNER_NAME || 'CRAZY-MD' ,
+COMMAND_TYPE: process.env.COMMAND_TYPE || 'button' ,
 LOGO: process.env.LOGO || `https://telegra.ph/file/e1c97c509ab9dc093bcca.jpg` ,
 POSTGRESQL_URL: process.env.POSTGRESQL_URL === undefined ? 'postgres://vajiratech_user:oSIFl2xmSojMZ0rkzdd0g0W6msuVTpNN@dpg-cpd7fjv109ks73e5gtig-a.frankfurt-postgres.render.com/vajiratech' : process.env.POSTGRESQL_URL,
 FOOTER: process.env.FOOTER || '‌👨‍💻 CRAZY -  ＭＤ - Ｖ1 👨‍💻',
 PREFIX: process.env.PREFIX || '#' ,
-LANG:  process.env.LANG || 'FR' ,
+LANG:  process.env.LANG || 'SI' ,
 ANTI_BAD: process.env.ANTI_BAD || false  ,
 AUTO_REACT:  process.env.AUTO_REACT  || false  ,    
 AUTO_TYPING:  process.env.AUTO_TYPING  || false  ,
